@@ -53,3 +53,25 @@ paddingでボタンに幅と高さを持たせる。
   padding: 14px 36px;
   margin-top: 30px;
 }
+
+#header {
+  height: 100vh;
+  background-image: url(../img/mainvisual.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  margin-bottom: 80px;
+  position: relative;
+
+  /* padding: 20px 0; */
+}
+
+#header .site-title {
+  position: absolute;
+  top: 30%;
+  right: 30px;
+}
+
+img {
+  max-width: 100%;
+}
