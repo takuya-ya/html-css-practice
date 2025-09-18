@@ -82,7 +82,7 @@ img {
   margin-bottom: 80px;
 }
 
-.flex-item {
+#magazine .flex-item {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
@@ -126,4 +126,28 @@ img {
   padding-top: 60px;
   margin-bottom: 80px;
   text-align: center;
+}
+
+.catalog-antique {
+  background-color: #f5f5f5;
+  padding: 60px 0;
+}
+
+.catalog-antique .flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catalog-antique .flex-item .item{
+  width: 48%;
+  text-align: center;
+}
+
+.catalog-antique .sec-title {
+  margin-bottom: 40px;
+}
+.catalog-antique .flex-item .item p {
+  margin-bottom: 30px;
+  text-align: left;
 }
